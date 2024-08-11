@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+
+.container {
+    background-color: rgb(0, 0, 41);
+    width: auto;
+    height: 100vh;
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+    width: auto;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar img {
+    height: 36px;
+    width: 150px;
+    margin-left: 88px;
+    margin-right: 538px;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.list-group {
+    display: flex;
+    font-family: "Rubik", sans-serif;
+}
+
+.list {
+    list-style: none;
+    margin-right: 50px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Rubik", sans-serif;
+}
+
+.text-group {
+    width: 80%;
+    height: 70vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    z-index: 999999999999;
+}
+
+.portfolio-word {
+    width: auto;
+    height: 100%;
+    font-size: 120px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 2px 0 #000b72, -2px 0 #000b72, 0 2px #000b72, 0 -2px #000b72, 1px 1px #000b72, -1px -1px #000b72, 1px -1px #000b72, -1px 1px #000b72;
+    color: rgb(0, 0, 41);;
+    z-index: 1;
+    position: absolute;
+    flex-direction: row;
+    justify-content: center;
+    margin-left:30px;
+}
+
+.text {
+    width: auto;
+    height: 100%;
+    z-index: 2;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    color: rgb(0, 57, 214);
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Rubik", sans-serif;
+}
+
+.text h2 {
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.text h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+}
